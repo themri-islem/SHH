@@ -1,7 +1,7 @@
 
 .login-container {
-    width: 280px;
-    padding: 16px;
+    width: 230px;
+    padding: 50px;
     background-color:rgb(255,255,255,.4);
     margin: 80px auto;
     box-shadow: 0px 0px 10px 0px rgb(141, 195, 250);
@@ -23,7 +23,7 @@
 
 .login-container input {
     width: 100%;
-    padding: 5px;
+    padding: 12px;
     margin-bottom: 14px;
     box-sizing: border-box;
     border-radius:100px;
@@ -31,31 +31,7 @@
 .login-container div{
     margin-right:10;
 }
-.login-container button {
-    width: 30%;
-    margin-left: 100px;
-    padding: 10px;
-    color: #0b0c0c;
-    border:60cm;
-    cursor: pointer;
-    border-radius: 500px;
-    font-size: 20px;
-    font-family: "Poppins", sans-serif;
-}
 
-
-.login-container button:hover {
-  background-color: #477899;
-  box-shadow: 0 0 20px #6fc5ff50;
-  transform: scale(1.1);
-}
-.login-container button:active {
-  background-color: #3d94cf;
-  transition: all 0.25s;
-  -webkit-transition: all 0.25s;
-  box-shadow: none;
-  transform: scale(0.98);
-}
 .login-container p{
     color: #e8ebef;
 
@@ -152,13 +128,17 @@
 
 
 
-
+.login-container button:hover {
+    background-color: #eef4fa;
+}
 
 .login-container a {
     text-decoration: none;
     color: #e8ebef;
 }
 
-
+.login-container a:hover {
+    text-decoration: underline;
+}
 
 

@@ -23,7 +23,7 @@
   }
   
   .nav-item {
-    color: #f2f1f7;
+    color: #0a090a;
     font-family: georgia;
     padding: 20px;
     margin: 0 5px;
@@ -37,7 +37,7 @@
     content: "";
     position: absolute;
     bottom: -6px;
-    background-color: rgb(239, 234, 230), 223, 223);
+    background-color: rgb(206, 15, 15), 223, 223);
     height: 5px;
     width: 100%;
     border-radius: 8px 8px 0 0;
@@ -66,7 +66,7 @@
         <a href="#" class="nav-item is-active" data-active-color="orange" data-target="Home">Home</a>
         <a href="#" class="nav-item" data-active-color="green" data-target="About">About Us
         </a>
-        <a href="#" class="nav-item" data-active-color="blue" data-target="Testimonials">Equipment
+        <a href="eq" class="nav-item" data-active-color="blue" data-target="Testimonials">Equipment
         </a>
         <a href="#" class="nav-item" data-active-color="red" data-target="Blog">Blog</a>
         <a href="#" class="nav-item" data-active-color="rebeccapurple" data-target="Contact">Contact</a>

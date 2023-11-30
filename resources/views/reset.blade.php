@@ -5,27 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SH</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/reset.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   
 <style>
     body{
-    background-size: cover;
+      background-size: cover;
       background-image : url('assets/img/img2.jpg');
       background-repeat: no-repeat;
       background-blend-mode:darken ;
       font-family: "Open Sans", sans-serif;
+ 
       font-weight: 300px;
     }
     .login-container button{
-        width: 280px;
-        margin-left: 0.1px;
+        width: 240px;
+    margin-left: 0.1px;
+    padding: 10px;
+    color: #0b0c0c;
+    border:60cm;
+    cursor: pointer;
+    border-radius: 500px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
 
-    }
+    
     .login-container button:hover {
-  background-color: #26648e;
+  background-color: #477899;
   box-shadow: 0 0 20px #6fc5ff50;
   transform: scale(1.1);
 }
@@ -52,6 +61,7 @@
             <input type="email" id="email" name="email" placeholder="Ex@gmail.com" required>
             
             <a href="login">Sign  In</a>
+            <br> <br>
 
            
             <button class="butt" type="submit">Send my password </button>

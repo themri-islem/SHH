@@ -32,3 +32,6 @@ Route::get('/navbar', function () {
 Route::get('/butt', function () {
     return view('butt');
 });
+Route::get('/eq', function () {
+    return view('equipement');
+});

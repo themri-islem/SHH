@@ -129,9 +129,10 @@ border-top: 1px solid black;
 }
 .row{
   position: relative;
-  width: 100%;
+  width: 1000PX;
   display: flex;
   justify-content: space-between;
+  margin-right: 500px;
 }
 
 .row .col50{
@@ -142,28 +143,32 @@ border-top: 1px solid black;
 
 }
 
-.row .col50 h2{
+.row .col50 h3{
   margin-bottom: 20px;
+  font-size: 30px;
+  margin-right: 180px;
 }
 
+
 .titre-texte{
-  color: #000;
+  color: #f5f2f2;
   font-size: 2em;
   font-weight: 300px;
   text-transform: capitalize;
 }
+
 
 .titre-texte span{
   color: #fb911f;
   font-size: 1.5em;
   font-weight: 700px;
 }
-
-.row .col50 img{
-  height: 450px;
-  width: 600px;
-  position: relative;
+.titre-texte p{
+  font-size: 100px;
 }
+
+
+
 
 .titre{
   display: flex;

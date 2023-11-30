@@ -10,17 +10,15 @@
     </head>
 <style>
      .banniere{
-        background-image: url(assets/img/home.jpg);
+        background-image: url(assets/img/dari2.jpg);
   } 
 
 </style>
 
 
     <body>
-
-
     <header>
-    <a href="#" class="logo"><span>I</span>HOME</a>
+    <a href="" class="logo"><span>I</span>HOME</a>
     <div class="menuToggle" onclick="toggleMenu();"></div>
     
     @include('navbar')
@@ -29,39 +27,35 @@
 <section class="banniere" id="banniere">
     
 </section>
-
-
-
-
-
-<section class="apropos" id="apropos">
+<section   style="background-image: url('assets/img/dari4.png')">
     <div class="row">
         <div class="col50">
             <h1 class="titre-texte"><span>A</span> bout Us</h1>
-            <p><h3>Welcome to IHome!</h3></p>
-                <p><h3> We are a passionate team, dedicated to shaping the future of the smart home.
-With diverse expertise, we bring together exceptional talents in the areas of software development, hardware engineering,
- data security, design and user experience. </h3></p>
-                     <p><h3> Our mission is clear: 
-                        to simplify daily life by offering innovative and integrated solutions that
-                      transform every home into an intelligent and connected space. 
-                      At IHome we stand out
-                       through our commitment to constant innovation, exceptional customer service and a personalized approach.
-                       Each member of our team shares a common vision: making technology a natural ally of your
-                       daily, offering intelligent solutions that adapt to your specific needs. </h3></p>
-                       <p><h3> In this exciting adventure towards a smarter and more comfortable home life. At IHome,
-                         we transform houses into connected homes, redefining the way you live,
-                       interact and enjoy your space.
-                </h3></p>
-            </p>
+                <p style="font-size: 15px;margin-left:0.1px"> IHome is a <br> dedicated team <br>
+                    with diverse expertise <br> focused on  
+                    shaping the future <br> of smart homes.
+                     Our mission is to <br> simplify daily life
+                        through innovative  and  <br>integrated solutions,
+                        transforming every home <br> into an intelligent
+                        and connected space.  <br>
+                        We stand out  with our
+                        commitment to constant innovation,  <br>
+                        exceptional  customer
+                        service, and a personalized approach.   <br>
+                        Each team member shares a common vision of making 
+                        technology a natural  <br> ally in daily life
+                        At IHome, we are on an exciting adventure to redefine the way <br> people live, interact, and enjoy their <br> spaces by transforming 
+                        houses into connected homes.
+                        
+                    </p>
+
         </div>
-        <div class="col50">
-            <div class="img">
-                <img src="assets/img/image2.jpg" alt="image">
-            </div>
-        </div>
-    </div>
+       
 </section>
+<section>
+    @include('equipement')
+</section>
+<<!--
 <section class="menu" id="menu">
     <div class="titre">
         <h2 class="titre-texte"><span>E</span>quipement</h2>
@@ -151,7 +145,7 @@ With diverse expertise, we bring together exceptional talents in the areas of so
     <a href="#" class="btn1">Voir Plus</a>
  </div>
 </section>
-
+-->
 
 
 

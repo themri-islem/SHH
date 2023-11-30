@@ -18,13 +18,13 @@
 }
 
 .button {
-  min-width: 70px;
-  min-height: 60px;
+  min-width: 90px;
+  min-height: 40px;
   font-family: 'Nunito', sans-serif;
-  font-size: 22px;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1.3px;
-  font-weight: 700;
+  font-weight: 20PX;
   color: #f3f3f8;
   background: orange;
 background: linear-gradient(90deg, orange, orange 100%);
@@ -35,7 +35,8 @@ background: linear-gradient(90deg, orange, orange 100%);
   cursor: pointer;
   outline: none;
   position: relative;
-  padding: 10px;
+  padding: 6px;
+  margin-right: 40px;
   }
 
 button::before {
